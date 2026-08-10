@@ -260,7 +260,7 @@ export const LEADERS = [
     name: "Opeyemi Onifade",
     role: "Head of Strategy",
     bio: "Identifies growth opportunities and shapes the roadmap that keeps Roundstone's offering aligned with where Nigerian institutions are headed.",
-    image: "/image/team/opeyemi-nifade.jpg"
+    image: "/image/team/opeyemi-onifade.jpeg"
   },
   {
     name: "Vinod Jain",
