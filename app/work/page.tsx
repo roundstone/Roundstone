@@ -21,13 +21,13 @@ export default function WorkPage() {
             Proof, not just claims.
           </Heading>
           <Text variant="lead" className="text-palesky">
-            A selection of the platforms, portals, and products we&apos;ve built for Nigeria&apos;s leading institutions and emerging businesses.
+            Our work spans government, financial services, development organisations and enterprise. Here are some of the systems we have helped bring to life.
           </Text>
         </FadeIn>
       </Section>
-      
+
       <PortfolioSection />
-      
+
       <FinalCTA />
     </main>
   );

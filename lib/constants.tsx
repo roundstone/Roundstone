@@ -64,169 +64,169 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO_PROJECTS = [
-  // Public Sector (B2G)
+  // Public Sector
   {
     title: "Yellow Card Portal",
     client: "Federal Ministry of Health",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "Enrollment, issuance, and management of Nigeria's new E-Yellow Card.",
     slug: "yellow-card-portal"
   },
   {
     title: "Case Management System",
     client: "Ministry of Justice",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "End-to-end case tracking and management.",
     slug: "case-management-system"
   },
   {
     title: "KDSG Scholarship Board Platform",
     client: "Kaduna State Government",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "Application, testing, selection, and notification for state scholarships.",
     slug: "kdsg-scholarship"
   },
   {
     title: "Kashim Ibrahim Fellowship Platform",
     client: "Kashim Ibrahim Fellowship",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "Application and selection management for a flagship state fellowship programme.",
     slug: "kashim-ibrahim-fellowship"
   },
   {
     title: "Boola",
     client: "Kaduna State",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "A scavenger/scrap-aggregator tracking app organised by sector and location.",
     slug: "boola"
   },
   {
     title: "Kaduna state Agricultural Development Agency (KADA)",
     client: "Kaduna State",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "Management of input distribution to smallholder farmers and agricultural extension services.",
     slug: "kada"
   },
   {
     title: "E-Government Portal",
     client: "Government of Nigeria",
-    sector: "Public Sector (B2G)",
+    sector: "Public Sector",
     outcome: "Digital gateway for accessing and discovering government services across Nigeria.",
     slug: "e-government-portal"
   },
 
-  // Enterprise & Foundations (B2B)
+  // Enterprise & Foundations
   {
     title: "KadaHive Hub",
     client: "Bank of Industry & Kaduna State Government",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Roundstone manages a state-of-the-art workspace, tech training, and business incubation hub.",
     slug: "kadahive-hub"
   },
   {
     title: "EBMS",
     client: "Enterprise",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Centralised, AI-assisted electricity bill processing at scale.",
     slug: "ebms"
   },
   {
     title: "Tony Elumelu Foundation Platform",
     client: "Tony Elumelu Foundation",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Business plan submission, pitch video handling, scoring, payment, and notification for one of Africa's leading entrepreneurship programmes.",
     slug: "tony-elumelu-foundation"
   },
   {
     title: "AIG-Imoukhuede Foundation Platform",
     client: "AIG-Imoukhuede Foundation",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Application, testing, selection, and notification management.",
     slug: "aig-imoukhuede"
   },
   {
     title: "Enterprise NGR — YOE Programme",
     client: "Enterprise NGR",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Application submission with AI-proctored testing and selection.",
     slug: "enterprise-ngr-yoe"
   },
   {
     title: "Learning Management System",
     client: "Various",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Digital delivery and tracking for educational and vocational training programmes.",
     slug: "learning-management-system"
   },
   {
     title: "UNECA Digital Identity Consulting",
     client: "UN Economic Commission for Africa",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Ongoing advisory role with the UN Economic Commission for Africa on digital identity.",
     slug: "uneca-digital-identity"
   },
   {
     title: "Galaxy Backbone Auth Trust",
     client: "Galaxy Backbone",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Identity verification management and trust management service.",
     slug: "galaxy-backbone-auth-trust"
   },
   {
     title: "ONE-Plaform",
     client: "UNICEF",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Development of a comprehensive one-platform for UNICEF to manage its programs and initiatives.",
     slug: "one-platform"
   },
   {
     title: "Tera 10",
     client: "Tera 10",
-    sector: "Enterprise & Foundations (B2B)",
+    sector: "Enterprise & Foundations",
     outcome: "Funding platform that helps developers access financial support and opportunities to build and grow their projects.",
     slug: "tera-10"
   },
 
-  // Products (B2C)
+  // Products
   {
     title: "Clay",
     client: "Internal Product",
-    sector: "Products (B2C)",
+    sector: "Products",
     outcome: "A buy-now-pay-later platform giving customers instalment purchasing power.",
     slug: "clay"
   },
   {
     title: "RoundTrack AI Proctoring",
     client: "Internal Product",
-    sector: "Products (B2C)",
+    sector: "Products",
     outcome: "Browser-based AI proctoring for exams, assessments, and interviews.",
     slug: "roundtrack-ai"
   },
   {
     title: "Health App",
     client: "Internal Product",
-    sector: "Products (B2C)",
+    sector: "Products",
     outcome: "Consumer-facing app for immediate access to care and patient engagement.",
     slug: "health-app"
   },
   {
     title: "Jaokins Farms",
     client: "Jaokins",
-    sector: "Products (B2C)",
+    sector: "Products",
     outcome: "A comprehensive farm management system for Jaokins Farms to manage their farm and operations.",
     slug: "jaokins-farms"
   },
   {
     title: "RoundClock",
     client: "Internal Product",
-    sector: "Products (B2C)",
+    sector: "Products",
     outcome: "Biometric time and attendance system using fingerprint and facial recognition for staff clocking, customer management, and workforce administration.",
     slug: "roundclock"
   },
   {
     title: "Transaharan",
     client: "Transaharan",
-    sector: "Products (B2C)",
+    sector: "Products",
     outcome: "Business growth and expansion platform connecting companies with consulting services, industry experts, learning resources, and advisory support across Africa.",
     slug: "transaharan"
   },
