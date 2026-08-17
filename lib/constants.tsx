@@ -1,4 +1,4 @@
-import { Monitor, Database, ShieldCheck, Cpu } from "lucide-react";
+import { Monitor, Database, ShieldCheck, Cpu, Landmark, HeartHandshake, Wallet, HeartPulse } from "lucide-react";
 
 export const COMPANY = {
   name: 'Roundstone Consulting',
@@ -25,9 +25,10 @@ export const STATS = [
 
 export const NAV_LINKS = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Work", href: "/work" },
+  { name: "About", href: "/about" },
+  { name: "Feed", href: "/feed" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -270,25 +271,25 @@ export const LEADERS = [
   },
   {
     name: "Zahra Yunusa",
-    role: "Head of Business Development",
+    role: "Chief Of Operations",
     bio: "Builds the partnerships and relationships that connect Roundstone with the organisations it serves.",
     image: "/image/team/zahra-yunusa.jpg"
   }
 ];
 
 export const TRUST_LOGOS = [
-  { name: "Tony Elumelu Foundation", image: "/image/trusts/tef.jpg" },
-  { name: "AIG-Imoukhuede Foundation", image: "/image/trusts/aig-imoukhuede-foundation.webp" },
+  { name: "UNICEF", image: "/image/trusts/unicef.png" },
   { name: "Bank of Industry", image: "/image/trusts/bank-of-industry.png" },
+  { name: "Tony Elumelu Foundation", image: "/image/trusts/tef.jpg" },
   { name: "Federal Ministry of Health", image: "/image/trusts/federal-ministry-of-health.png" },
+  { name: "AIG-Imoukhuede Foundation", image: "/image/trusts/aig-imoukhuede-foundation.webp" },
+  { name: "Galaxy Backbone", image: "/image/trusts/gbb.png" },
+  { name: "Enterprise NGR", image: "/image/trusts/enterprisengr.png" },
+  { name: "Kaduna State Government", image: "/image/trusts/kada.jpeg" },
   { name: "United Capital", image: "/image/trusts/united-capital.png" },
   { name: "Africa Prudential", image: "/image/trusts/africa-prudential.png" },
-  { name: "Kaduna State Power Supply Company", image: "/image/trusts/kaduna-state-power-supply-company.jpeg" },
   { name: "Kashim Ibrahim Fellows", image: "/image/trusts/kashim-ibrahim-fellows.jpeg" },
-  { name: "UNICEF", image: "/image/trusts/unicef.png" },
-  { name: "Enterprise NGR", image: "/image/trusts/enterprisengr.png" },
-  { name: "Galaxy Backbone", image: "/image/trusts/gbb.png" },
-  { name: "Kaduna State Government", image: "/image/trusts/kada.jpeg" },
+  { name: "Kaduna State Power Supply Company", image: "/image/trusts/kaduna-state-power-supply-company.jpeg" },
 ];
 
 export const VIGNETTES = [
@@ -316,4 +317,11 @@ export const VIGNETTES = [
     href: "/work/clay",
     reverse: false
   }
+];
+
+export const SECTORS = [
+  { name: "Government & Public Sector", icon: <Landmark className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> },
+  { name: "Foundations & Development", icon: <HeartHandshake className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> },
+  { name: "Financial Services", icon: <Wallet className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> },
+  { name: "Healthcare & Education", icon: <HeartPulse className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> }
 ];

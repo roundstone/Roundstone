@@ -16,26 +16,25 @@ export default function LeadershipBios() {
           Our senior team stays actively involved in every project, ensuring institutional knowledge translates directly into platform quality.
         </Text>
       </FadeIn>
-      
+
       <StaggerContainer>
         <Grid className="gap-y-16">
           {LEADERS.map((leader, i) => (
             <StaggerItem key={i} className="col-span-1 md:col-span-12 lg:col-span-6 grid grid-cols-1 sm:grid-cols-12 gap-6 sm:gap-8 group">
               <div className="col-span-1 sm:col-span-5">
-                <div className="aspect-[4/5] bg-mystic/20 rounded overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-500 shadow-sm">
-                   <div className="absolute inset-0 bg-biscay/10 mix-blend-multiply group-hover:opacity-0 transition-opacity z-10"></div>
-                   {leader.image ? (
-                     <Image 
-                       src={leader.image}
-                       alt={leader.name}
-                       fill
-                       className="object-cover transition-transform duration-700 group-hover:scale-110"
-                     />
-                   ) : (
-                     <div className="w-full h-full flex items-center justify-center text-palesky/50 text-sm font-medium">
-                       [Portrait: {leader.name}]
-                     </div>
-                   )}
+                <div className="aspect-4/5 rounded overflow-hidden relative  group-hover:grayscale-0 transition-all duration-500 shadow-sm">
+                  {leader.image ? (
+                    <Image
+                      src={leader.image}
+                      alt={leader.name}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-palesky/50 text-sm font-medium">
+                      [Portrait: {leader.name}]
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="col-span-1 sm:col-span-7 flex flex-col justify-center sm:pr-8">

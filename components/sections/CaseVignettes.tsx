@@ -22,7 +22,7 @@ export default function CaseVignettes() {
           <Grid key={i} className="items-center group">
             <div className={`col-span-1 md:col-span-6 ${v.reverse ? 'md:order-2' : ''}`}>
               <FadeIn direction={v.reverse ? "right" : "left"}>
-                <div className="aspect-[4/3] bg-mystic/50 rounded-lg overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-500 shadow-sm border border-mystic/50">
+                <div className="aspect-[4/3] bg-mystic/50 rounded-lg overflow-hidden relative transition-all duration-500 shadow-sm border border-mystic/50 group-hover:shadow-md">
                   {v.image ? (
                     <Image
                       src={v.image}

@@ -22,8 +22,8 @@ export default function LeadershipStrip() {
         <Grid>
           {LEADERS.map((leader, i) => (
             <StaggerItem key={i} className="col-span-1 md:col-span-6 lg:col-span-3 group">
-              <div className="aspect-square bg-mystic/20 mb-6 rounded overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-500 shadow-sm border border-mystic/50">
-                 <div className="absolute inset-0 bg-biscay/10 mix-blend-multiply group-hover:opacity-0 transition-opacity z-10"></div>
+              <div className="aspect-square bg-mystic/20 mb-6 rounded-xl overflow-hidden relative transition-all duration-500 shadow-sm border border-mystic/50 group-hover:shadow-md">
+                 <div className="absolute inset-0 bg-biscay/5 z-10 group-hover:opacity-0 transition-opacity"></div>
                  {leader.image ? (
                    <Image
                      src={leader.image}

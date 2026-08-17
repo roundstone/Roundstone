@@ -3,15 +3,9 @@ import { Section, Grid } from "@/components/ui/Section";
 import { Heading, Text } from "@/components/ui/Typography";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
 
-import { Landmark, HeartHandshake, Wallet, HeartPulse } from "lucide-react";
+import { SECTORS } from "@/lib/constants";
 
 export default function OurStory() {
-  const sectors = [
-    { name: "Government & Public Sector", icon: <Landmark className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> },
-    { name: "Foundations & Development", icon: <HeartHandshake className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> },
-    { name: "Financial Services", icon: <Wallet className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> },
-    { name: "Healthcare & Education", icon: <HeartPulse className="w-8 h-8 mb-6 text-burntsienna stroke-[1.5] group-hover:-translate-y-2 transition-transform duration-300" /> }
-  ];
 
   return (
     <>
@@ -77,7 +71,7 @@ export default function OurStory() {
           </FadeIn>
 
           <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {sectors.map((sector, index) => (
+            {SECTORS.map((sector, index) => (
               <StaggerItem 
                 key={index} 
                 className="bg-white/5 border border-white/10 rounded-xl p-8 hover:bg-white/10 hover:border-white/20 transition-all duration-300 group cursor-default"

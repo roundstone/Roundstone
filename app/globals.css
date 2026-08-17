@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFFFFF;
+  --background: #FAFAF8;
   --foreground: #1B4264; /* Biscay - primary/ink */
 }
 
@@ -11,7 +11,10 @@
   --color-palesky: #6A7385;
   --color-burntsienna: #E48E4A;
   --color-nearblack: #0E1E2B;
-  
+  --color-warmwhite: #FAFAF8;
+  --color-cream: #F5F0E8;
+  --color-amber-glow: #F7C97E;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
@@ -24,4 +27,33 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
   @apply antialiased;
+}
+
+/* Smooth global transitions */
+* {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Selection colour */
+::selection {
+  background-color: rgba(228, 142, 74, 0.2);
+  color: #1B4264;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFAF8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DEE7EB;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6A7385;
 }

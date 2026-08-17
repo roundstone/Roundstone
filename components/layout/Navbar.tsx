@@ -47,10 +47,10 @@ export default function Navbar() {
             <Image
               src="/image/logo.png"
               alt="Roundstone Logo"
-              width={180}
-              height={40}
+              width={220}
+              height={48}
               priority
-              className="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-9 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 

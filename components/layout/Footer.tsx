@@ -14,7 +14,7 @@ export default function Footer() {
               alt="Roundstone Logo"
               width={180}
               height={40}
-              className="h-8 w-auto object-contain brightness-0 invert"
+              className="h-10 w-auto object-contain brightness-0 invert"
             />
           </Link>
           <p className="text-palesky text-sm leading-relaxed mb-6">
@@ -43,6 +43,7 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-palesky">
             <li><Link href="/about" className="hover:text-white transition-colors">Our Story</Link></li>
             <li><Link href="/about#team" className="hover:text-white transition-colors">Leadership Team</Link></li>
+            <li><Link href="/feed" className="hover:text-white transition-colors">Feed</Link></li>
             <li><Link href="/careers" className="hover:text-white transition-colors">Careers</Link></li>
             <li><Link href="/work" className="hover:text-white transition-colors">Case Studies</Link></li>
           </ul>
