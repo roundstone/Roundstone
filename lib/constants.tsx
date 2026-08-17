@@ -271,8 +271,8 @@ export const LEADERS = [
   },
   {
     name: "Zahra Yunusa",
-    role: "Chief Of Operations",
-    bio: "Builds the partnerships and relationships that connect Roundstone with the organisations it serves.",
+    role: "Chief Operation Officer",
+    bio: "Oversight of Roundstone’s day-to-day operations, service delivery, and the internal systems that support the entire organisation.",
     image: "/image/team/zahra-yunusa.jpg"
   }
 ];
