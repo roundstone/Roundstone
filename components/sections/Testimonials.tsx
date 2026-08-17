@@ -6,10 +6,11 @@ import { TESTIMONIALS } from "@/lib/constants";
 import { Quote } from "lucide-react";
 
 export default function Testimonials() {
+  if (TESTIMONIALS.length === 0) return null;
+
   return (
     <Section bg="mystic/20" className="py-24">
       <FadeIn className="text-center mb-16 max-w-2xl mx-auto">
-        <Text variant="caption" className="text-burntsienna font-semibold uppercase tracking-wider mb-4">Client Success</Text>
         <Heading level={2}>What our partners say</Heading>
       </FadeIn>
       

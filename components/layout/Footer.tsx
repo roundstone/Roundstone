@@ -18,7 +18,7 @@ export default function Footer() {
             />
           </Link>
           <p className="text-palesky text-sm leading-relaxed mb-6">
-            The technology partner behind Nigeria&apos;s most trusted institutions.
+            Digital solutions built for organisations that need technology to work.
           </p>
           <p className="text-sm text-palesky mb-6">
             Nexus Workspaces, No. 8 Bida Road, <br />
@@ -41,11 +41,11 @@ export default function Footer() {
         <div className="col-span-1">
           <h4 className="text-white font-medium mb-6">Quick Links</h4>
           <ul className="space-y-4 text-sm text-palesky">
-            <li><Link href="/about" className="hover:text-white transition-colors">Our Story</Link></li>
-            <li><Link href="/about#team" className="hover:text-white transition-colors">Leadership Team</Link></li>
-            <li><Link href="/feed" className="hover:text-white transition-colors">Feed</Link></li>
+            <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+            <li><Link href="/about#team" className="hover:text-white transition-colors">Leadership</Link></li>
+            <li><Link href="/work" className="hover:text-white transition-colors">Work</Link></li>
+            <li><Link href="/insights" className="hover:text-white transition-colors">Insights</Link></li>
             <li><Link href="/careers" className="hover:text-white transition-colors">Careers</Link></li>
-            <li><Link href="/work" className="hover:text-white transition-colors">Case Studies</Link></li>
           </ul>
         </div>
 
@@ -74,7 +74,7 @@ export default function Footer() {
             </li>
             <li>
               <Link href="/contact" className="text-burntsienna hover:text-white transition-colors font-medium inline-block mt-2">
-                Book a Consultation &rarr;
+                Discuss a Project &rarr;
               </Link>
             </li>
           </ul>

@@ -13,7 +13,7 @@ export default function CaseVignettes() {
       <FadeIn className="mb-16 md:mb-24 max-w-3xl">
         <Heading level={2} className="mb-6">Proof, not claims.</Heading>
         <Text variant="lead">
-          We build platforms that process national health data, disburse millions in funding, and handle daily financial transactions.
+          Our work spans government, financial services, development organisations and enterprise. Here are some of the systems we have helped bring to life.
         </Text>
       </FadeIn>
 
@@ -44,7 +44,7 @@ export default function CaseVignettes() {
                 <Text variant="caption" className="text-burntsienna font-semibold uppercase tracking-wider mb-4">{v.client}</Text>
                 <Heading level={3} className="mb-4">{v.title}</Heading>
                 <Text variant="body" className="mb-8">{v.desc}</Text>
-                <Button href={v.href} variant="ghost">Read Case Study</Button>
+                {v.href && <Button href={v.href} variant="ghost">View Case Study</Button>}
               </FadeIn>
             </div>
           </Grid>

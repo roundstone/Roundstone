@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Heading } from "@/components/ui/Typography";
+import { Heading, Text } from "@/components/ui/Typography";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { TRUST_LOGOS } from "@/lib/constants";
 import Image from "next/image";
@@ -15,9 +15,12 @@ export default function TrustBar() {
     <div className="w-full bg-white py-16 md:py-20 border-y border-mystic/60 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-6 mb-10">
         <FadeIn>
-          <Heading level={4} className="text-center text-biscay">
-            Trusted by Leading Institutions
+          <Heading level={4} className="text-center text-biscay mb-4">
+            Trusted to deliver for leading institutions
           </Heading>
+          <Text variant="body" className="text-center text-palesky max-w-2xl mx-auto">
+            Roundstone has delivered digital solutions for organisations across government, finance, development and enterprise.
+          </Text>
         </FadeIn>
       </div>
 

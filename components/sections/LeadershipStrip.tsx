@@ -11,11 +11,18 @@ export default function LeadershipStrip() {
 
   return (
     <Section bg="white">
-      <FadeIn className="flex justify-between items-end mb-16">
-        <Heading level={2}>Leadership</Heading>
-        <Link href="/about#team" className="text-burntsienna font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all">
-          Meet the team <ArrowRight className="w-4 h-4" />
-        </Link>
+      <FadeIn className="mb-16">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div className="max-w-2xl">
+            <Heading level={2} className="mb-4">Leadership</Heading>
+            <Text variant="body" className="text-palesky">
+              Experienced people remain close to the work. Our leadership team brings together business strategy, technology, engineering and commercial experience.
+            </Text>
+          </div>
+          <Link href="/about#team" className="text-burntsienna font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all whitespace-nowrap">
+            Meet the Team <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </FadeIn>
       
       <StaggerContainer>

@@ -13,14 +13,14 @@ export const COMPANY = {
 };
 
 export const STATS = [
-  { value: 13, suffix: "+", label: "Years in operation" },
-  { value: 25, suffix: "", label: "In-house professionals" },
+  { value: 15, suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5">+ Years</span>, label: "— Delivering digital solutions" },
+  { value: 25, suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5">+ Professionals</span>, label: "— Across strategy, design and engineering" },
   {
     value: 6,
-    suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5"> mo </span>,
-    label: "Warranty on every engagement"
+    suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5"> Months</span>,
+    label: "— Structured post-launch support"
   },
-  { value: 3, suffix: "", label: "Sectors: Gov, Enterprise, Consumer" },
+  { value: "Public & Private Sector", suffix: "", label: "— Experience across government, finance, development and enterprise" },
 ];
 
 export const NAV_LINKS = [
@@ -28,35 +28,35 @@ export const NAV_LINKS = [
   { name: "Services", href: "/services" },
   { name: "Work", href: "/work" },
   { name: "About", href: "/about" },
-  { name: "Feed", href: "/feed" },
+  { name: "Insights", href: "/insights" },
   { name: "Contact", href: "/contact" },
 ];
 
 export const SERVICES = [
   {
     title: "Software Development",
-    desc: "Modernise how your institution operates. We build custom applications, engineer platforms, and integrate complex systems.",
+    desc: "We design and build secure digital platforms, applications and systems around the way your organisation actually works.",
     icon: <Monitor className="w-8 h-8 text-biscay mb-6 stroke-[1.5]" />,
     href: "/services/software-development",
     slug: "software-development"
   },
   {
     title: "ERP Consulting",
-    desc: "Gain real-time data visibility and efficiency. We select, implement, and integrate ERP platforms with your legacy systems.",
+    desc: "We help organisations bring processes, systems and data together to improve visibility, efficiency and decision-making.",
     icon: <Database className="w-8 h-8 text-biscay mb-6 stroke-[1.5]" />,
     href: "/services/erp",
     slug: "erp"
   },
   {
     title: "IT & Security",
-    desc: "Keep your critical systems running securely. We design, implement, and manage scalable IT infrastructure architecture.",
+    desc: "We design and support secure, reliable technology environments for organisations where performance, continuity and security matter.",
     icon: <ShieldCheck className="w-8 h-8 text-biscay mb-6 stroke-[1.5]" />,
     href: "/services/it-infrastructure",
     slug: "it-infrastructure"
   },
   {
     title: "AI & Data Solutions",
-    desc: "Embed intelligence into your operations. We build applied AI features into real, scaled operational systems.",
+    desc: "We help organisations use AI and data to automate processes, uncover insights and build smarter digital services.",
     icon: <Cpu className="w-8 h-8 text-biscay mb-6 stroke-[1.5]" />,
     href: "/services/ai-data",
     slug: "ai-data"
@@ -232,42 +232,28 @@ export const PORTFOLIO_PROJECTS = [
   },
 ];
 
-export const TESTIMONIALS = [
-  {
-    quote: "The System streamlined workflows, reduced manual data entry, and improved collaboration. The Testing, Review, and Assessment Portal enabled evaluation and feedback. The team's responsiveness, communication, and support were key to this partnership's success.",
-    author: "Oluwatobi Ajayi",
-    role: "Businessman"
-  },
-  {
-    quote: "The scholarship application portal developed by the team was user-friendly, intuitive, and visually appealing. This streamlined the funding application process for students, aligned with the organization's mission and values, and allowed for greater impact by supporting more students.",
-    author: "Fatima Umar",
-    role: "Founder"
-  },
-  {
-    quote: "The Proctoring tool streamlined the recruitment process, enabled objective evaluation of candidates, informed decisions. The team's professionalism, responsiveness, and support were crucial to this partnership's success, and the organization anticipates a continued partnership in the future.",
-    author: "Emeka Nwachukwu",
-    role: "Director of ZuBaz"
-  }
+export const TESTIMONIALS: { quote: string, author: string, role: string }[] = [
+  // To be filled with properly attributed testimonials
 ];
 
 export const LEADERS = [
   {
     name: "Adeola Bojuwoye",
     role: "Managing Partner",
-    bio: "Over a decade of experience in technology and business development across banking and telecommunications, leading Roundstone's strategic direction and client partnerships.",
+    bio: "Leads Roundstone's strategic direction and institutional engagements.",
     image: "/image/team/adeola-bojuwoye.jpg"
   },
   {
     name: "Opeyemi Onifade",
     role: "Head of Strategy",
-    bio: "Identifies growth opportunities and shapes the roadmap that keeps Roundstone's offering aligned with where Nigerian institutions are headed.",
+    bio: "Leads strategy and helps translate organisational challenges into clear, practical solutions.",
     image: "/image/team/opeyemi-onifade.jpeg"
   },
   {
     name: "Vinod Jain",
     role: "Head of Software Engineering",
     bio: "Leads the engineering organisation responsible for every platform Roundstone ships, from architecture through delivery.",
-    image: "/image/team/vinod-jain.jpg"
+    image: "/image/team/vinod-jain.jpeg"
   },
   {
     name: "Zahra Yunusa",
@@ -280,12 +266,12 @@ export const LEADERS = [
 export const TRUST_LOGOS = [
   { name: "UNICEF", image: "/image/trusts/unicef.png" },
   { name: "Bank of Industry", image: "/image/trusts/bank-of-industry.png" },
-  { name: "Tony Elumelu Foundation", image: "/image/trusts/tef.jpg" },
   { name: "Federal Ministry of Health", image: "/image/trusts/federal-ministry-of-health.png" },
-  { name: "AIG-Imoukhuede Foundation", image: "/image/trusts/aig-imoukhuede-foundation.webp" },
+  { name: "Tony Elumelu Foundation", image: "/image/trusts/tef.jpg" },
   { name: "Galaxy Backbone", image: "/image/trusts/gbb.png" },
-  { name: "Enterprise NGR", image: "/image/trusts/enterprisengr.png" },
   { name: "Kaduna State Government", image: "/image/trusts/kada.jpeg" },
+  { name: "AIG-Imoukhuede Foundation", image: "/image/trusts/aig-imoukhuede-foundation.webp" },
+  { name: "Enterprise NGR", image: "/image/trusts/enterprisengr.png" },
   { name: "United Capital", image: "/image/trusts/united-capital.png" },
   { name: "Africa Prudential", image: "/image/trusts/africa-prudential.png" },
   { name: "Kashim Ibrahim Fellows", image: "/image/trusts/kashim-ibrahim-fellows.jpeg" },
@@ -296,25 +282,25 @@ export const VIGNETTES = [
   {
     client: "Federal Ministry of Health",
     title: "Yellow Card Portal",
-    desc: "Digitized national health card enrollment end-to-end, securing and streamlining the process for millions of citizens and international travelers.",
+    desc: "A digital platform that streamlined national Yellow Card enrolment, making the process more accessible and efficient for citizens and international travellers.",
     image: "/image/portfolio/yellowcard.png",
-    href: "/work/yellow-card-portal",
+    href: "",
     reverse: false
   },
   {
-    client: "Enterprise",
-    title: "EBMS",
-    desc: "An AI-assisted billing engine processing electricity payments at scale, bringing unprecedented accuracy and visibility to regional power distribution.",
-    image: "", // Placeholder since we don't have this image yet
-    href: "/work/ebms",
+    client: "UNICEF",
+    title: "ONE-Platform",
+    desc: "A comprehensive digital platform designed to help UNICEF efficiently manage and monitor its nationwide programmes.",
+    image: "/image/portfolio/one-platform.png", 
+    href: "",
     reverse: true
   },
   {
-    client: "Consumer Fintech",
-    title: "Clay BNPL",
-    desc: "A buy-now-pay-later platform giving everyday Nigerians access to instalment purchasing, powered by a robust risk-assessment engine.",
-    image: "/image/portfolio/clay.png",
-    href: "/work/clay",
+    client: "Tony Elumelu Foundation",
+    title: "TEF Entrepreneurship Programme Platform",
+    desc: "An end-to-end management system that handles business plan submissions, testing, and selection for Africa's leading entrepreneurship programme.",
+    image: "/image/portfolio/tef.png",
+    href: "",
     reverse: false
   }
 ];

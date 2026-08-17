@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/Button";
 import { constructMetadata } from "@/lib/metadata";
 
 export const metadata = constructMetadata({
-  title: "Feed | Roundstone Consulting",
+  title: "Insights | Roundstone Consulting",
   description:
-    "News, insights, and updates from Roundstone Consulting — the technology partner behind Nigeria's most trusted institutions.",
+    "Perspectives from the Roundstone team on technology, digital transformation, AI, enterprise systems and the lessons we learn from solving real operational challenges.",
 });
 
-export default function FeedPage() {
+export default function InsightsPage() {
   return (
     <div className="flex flex-col w-full overflow-hidden">
       {/* Hero */}
@@ -21,7 +21,7 @@ export default function FeedPage() {
             variant="caption"
             className="text-burntsienna font-semibold uppercase tracking-widest mb-4"
           >
-            Feed
+            Insights
           </Text>
           <Heading level={1} className="mb-6 max-w-3xl">
             News &amp; Insights

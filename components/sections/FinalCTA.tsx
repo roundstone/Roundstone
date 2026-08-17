@@ -8,12 +8,12 @@ export default function FinalCTA() {
   return (
     <Section bg="biscay" className="text-center py-24 lg:py-32">
       <FadeIn>
-        <Heading level={2} className="text-white mb-6">Have a project in mind?</Heading>
+        <Heading level={2} className="text-white mb-6">Have a project or challenge in mind?</Heading>
         <Text variant="lead" className="text-mystic max-w-2xl mx-auto mb-10">
-          Let&apos;s discuss how we can build the technical foundation for your next major initiative.
+          Tell us what you&apos;re trying to achieve. We&apos;ll help you think through the right approach, technology and delivery plan.
         </Text>
         <Button href="/contact" variant="accent" className="px-8 py-4 text-lg">
-          Book a Consultation
+          Discuss Your Project
         </Button>
       </FadeIn>
     </Section>

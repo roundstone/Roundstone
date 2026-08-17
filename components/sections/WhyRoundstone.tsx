@@ -6,16 +6,16 @@ import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
 export default function WhyRoundstone() {
   const differentiators = [
     {
-      title: "Lean, senior-led delivery",
-      desc: "You work directly with the architects and engineers building your platform. No bloated account layers, just technical experts focused on your outcome."
+      title: "Senior expertise stays involved",
+      desc: "Our senior team remains closely involved throughout each engagement, helping decisions move faster and keeping delivery aligned with the client's objectives."
     },
     {
-      title: "Institutional-grade reliability",
-      desc: "Our platforms are designed for government scale and financial compliance from day one, ensuring security and zero downtime when it matters most."
+      title: "Built for demanding environments",
+      desc: "Our experience includes government, finance and institutional systems where security, reliability and continuity are essential."
     },
     {
-      title: "Full lifecycle ownership",
-      desc: "From initial strategy to the final build, every engagement includes a comprehensive 6-month supported handover to guarantee smooth operations."
+      title: "We stay beyond launch",
+      desc: "Delivery does not end when a system goes live. Every engagement includes structured handover and post-launch support to help clients operate confidently."
     }
   ];
 
@@ -26,7 +26,7 @@ export default function WhyRoundstone() {
           <FadeIn>
             <Heading level={2} className="mb-6">Why Roundstone?</Heading>
             <Text variant="body">
-              Our approach is deliberately lean. We keep delivery close to our senior team, which means faster decisions, fewer handoffs, and software that&apos;s built to still be running in five years, not five months.
+              We combine experienced people, practical technology and a delivery approach built around long-term results.
             </Text>
           </FadeIn>
         </div>

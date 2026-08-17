@@ -8,9 +8,9 @@ import { PORTFOLIO_PROJECTS } from "@/lib/constants";
 
 const FILTERS = [
   "All",
-  "Public Sector (B2G)",
-  "Enterprise & Foundations (B2B)",
-  "Products (B2C)"
+  "Public Sector",
+  "Enterprise & Foundations",
+  "Products"
 ];
 
 export default function PortfolioSection() {

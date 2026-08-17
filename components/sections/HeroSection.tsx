@@ -20,22 +20,20 @@ export default function HeroSection() {
 
           <FadeIn delay={0.05}>
             <Heading level={1} className="mb-6 max-w-3xl">
-              Technology infrastructure for Nigeria&apos;s most trusted institutions.
+              We build digital systems that institutions depend on.
             </Heading>
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <Text variant="lead" className="mb-10 max-w-2xl">
-              Since 2011, Roundstone Consulting has designed, built, and supported the
-              software behind government agencies, leading foundations, and everyday
-              financial services used by millions of Nigerians.
+              For over 15 years, Roundstone has designed, built and supported digital solutions for government agencies, financial institutions, foundations and businesses.
             </Text>
           </FadeIn>
 
           <FadeIn delay={0.2}>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button href="/contact" variant="primary">
-                Book a Consultation
+                Discuss a Project
               </Button>
               <Button href="/work" variant="ghost">
                 View Our Work
@@ -61,7 +59,7 @@ export default function HeroSection() {
             <div className="absolute -bottom-4 -left-4 md:-left-8 bg-white rounded-xl shadow-lg shadow-biscay/8 px-5 py-4 z-20 border border-mystic/50">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-burntsienna/10 rounded-full flex items-center justify-center">
-                  <span className="text-burntsienna text-lg font-bold">13+</span>
+                  <span className="text-burntsienna text-lg font-bold">15+</span>
                 </div>
                 <div>
                   <p className="text-biscay font-semibold text-sm">Years of Impact</p>

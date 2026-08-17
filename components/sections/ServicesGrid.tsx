@@ -13,7 +13,10 @@ export default function ServicesGrid() {
   return (
     <Section bg="mystic">
       <FadeIn className="mb-16 md:mb-24">
-        <Heading level={2}>Core Capabilities</Heading>
+        <Heading level={2} className="mb-6">What we help organisations achieve</Heading>
+        <Text variant="lead" className="max-w-3xl">
+          From modernising existing systems to building entirely new platforms, we help organisations use technology to operate better, serve people more effectively and prepare for growth.
+        </Text>
       </FadeIn>
       <StaggerContainer>
         <Grid>
@@ -24,7 +27,7 @@ export default function ServicesGrid() {
                 <Heading level={4} className="mb-4">{service.title}</Heading>
                 <Text variant="body" className="mb-8">{service.desc}</Text>
                 <span className="text-burntsienna font-medium text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
-                  Learn more <ArrowRight className="w-4 h-4" />
+                  Explore {service.title} <ArrowRight className="w-4 h-4" />
                 </span>
               </Link>
             </StaggerItem>
