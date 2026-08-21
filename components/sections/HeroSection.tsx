@@ -12,21 +12,16 @@ export default function HeroSection() {
       <HeroBackgroundRings />
       <Grid className="items-center">
         <div className="col-span-1 md:col-span-12 lg:col-span-7 pr-0 lg:pr-12 relative z-10">
-          <FadeIn>
-            <Text variant="caption" className="text-burntsienna font-semibold uppercase tracking-widest mb-4 text-sm">
-              Since 2011 · Kaduna, Nigeria
-            </Text>
-          </FadeIn>
 
           <FadeIn delay={0.05}>
             <Heading level={1} className="mb-6 max-w-3xl">
-              We build digital systems that institutions depend on.
+              Powering growth for leading institutions.
             </Heading>
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <Text variant="lead" className="mb-10 max-w-2xl">
-              For over 15 years, Roundstone has designed, built and supported digital solutions for government agencies, financial institutions, foundations and businesses.
+              Roundstone is the technology partner for visionary institutions. We design, build and support digital solutions for government agencies, financial institutions, foundations and businesses.
             </Text>
           </FadeIn>
 
@@ -54,18 +49,6 @@ export default function HeroSection() {
                 className="object-cover"
                 priority
               />
-            </div>
-            {/* Floating social proof badge */}
-            <div className="absolute -bottom-4 -left-4 md:-left-8 bg-white rounded-xl shadow-lg shadow-biscay/8 px-5 py-4 z-20 border border-mystic/50">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-burntsienna/10 rounded-full flex items-center justify-center">
-                  <span className="text-burntsienna text-lg font-bold">15+</span>
-                </div>
-                <div>
-                  <p className="text-biscay font-semibold text-sm">Years of Impact</p>
-                  <p className="text-palesky text-xs">Government · Enterprise · Consumer</p>
-                </div>
-              </div>
             </div>
           </FadeIn>
         </div>

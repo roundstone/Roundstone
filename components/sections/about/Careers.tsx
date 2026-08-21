@@ -15,7 +15,7 @@ export default function Careers() {
               We hire for curiosity and hold onto people through investment, not perks.
             </Text>
             <Text variant="body" className="mb-8">
-              Every team member goes through structured onboarding and ongoing technical, product, QA, and customer-service training — because the software we ship is only as good as the people maintaining it.
+              Every team member goes through structured onboarding and ongoing technical, product, QA, and customer-service training - because the software we ship is only as good as the people maintaining it.
             </Text>
           </FadeIn>
         </div>

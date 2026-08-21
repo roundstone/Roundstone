@@ -22,13 +22,13 @@ export default function OurStory() {
               <div className="col-span-1 md:col-span-6 pr-0 md:pr-12">
                 <FadeIn delay={0.1}>
                   <Text variant="body" className="mb-6 text-lg">
-                    Roundstone Consulting was founded in 2011 and has spent over a decade helping private, state, and federal organisations across Nigeria modernise how they operate. What began as a software development practice has grown into a full-service technology partner — combining custom engineering, ERP consulting, and infrastructure expertise under one roof.
+                    Roundstone Consulting was founded in 2011 and has spent over a decade helping private, state, and federal organisations across Nigeria modernise how they operate. What began as a software development practice has grown into a full-service technology partner - combining custom engineering, ERP consulting, and infrastructure expertise under one roof.
                   </Text>
                   <Text variant="body" className="mb-6 text-lg">
-                    We&apos;re based in Kaduna, where our team of 25 designers, engineers, and consultants works across sectors that matter: healthcare, justice, financial inclusion, education, and public administration. Our approach is deliberately lean — we keep delivery close to our senior team, which means faster decisions, fewer handoffs, and software that&apos;s built to still be running in five years, not five months.
+                    We&apos;re based in Kaduna, where our team of 25 designers, engineers, and consultants works across sectors that matter: healthcare, justice, financial inclusion, education, and public administration. Our approach is deliberately lean - we keep delivery close to our senior team, which means faster decisions, fewer handoffs, and software that&apos;s built to still be running in five years, not five months.
                   </Text>
                   <Text variant="body" className="text-lg font-medium text-biscay">
-                    Every engagement comes with a six-month technical support guarantee. It&apos;s not a sales feature — it&apos;s how we think about the relationship.
+                    Every engagement comes with a six-month technical support guarantee. It&apos;s not a sales feature - it&apos;s how we think about the relationship.
                   </Text>
                 </FadeIn>
               </div>

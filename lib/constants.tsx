@@ -13,14 +13,14 @@ export const COMPANY = {
 };
 
 export const STATS = [
-  { value: 15, suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5">+ Years</span>, label: "— Delivering digital solutions" },
-  { value: 25, suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5">+ Professionals</span>, label: "— Across strategy, design and engineering" },
+  { value: 15, suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5">+ Years</span>, label: "Delivering digital solutions" },
+  { value: 25, suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5">+ Products</span>, label: "And solutions delivered" },
   {
     value: 6,
     suffix: <span className="text-3xl relative -top-4 font-normal ml-0.5"> Months</span>,
-    label: "— Structured post-launch support"
+    label: "Structured post-launch support"
   },
-  { value: "Public & Private Sector", suffix: "", label: "— Experience across government, finance, development and enterprise" },
+  // { value: "Public & Private Sector", suffix: "", label: "Experience across government, finance, development and enterprise" },
 ];
 
 export const NAV_LINKS = [
@@ -41,14 +41,14 @@ export const SERVICES = [
     slug: "software-development"
   },
   {
-    title: "ERP Consulting",
+    title: "Business Management Systems",
     desc: "We help organisations bring processes, systems and data together to improve visibility, efficiency and decision-making.",
     icon: <Database className="w-8 h-8 text-biscay mb-6 stroke-[1.5]" />,
     href: "/services/erp",
     slug: "erp"
   },
   {
-    title: "IT & Security",
+    title: "IT & Cybersecurity",
     desc: "We design and support secure, reliable technology environments for organisations where performance, continuity and security matter.",
     icon: <ShieldCheck className="w-8 h-8 text-biscay mb-6 stroke-[1.5]" />,
     href: "/services/it-infrastructure",
@@ -145,7 +145,7 @@ export const PORTFOLIO_PROJECTS = [
     slug: "aig-imoukhuede"
   },
   {
-    title: "Enterprise NGR — YOE Programme",
+    title: "Enterprise NGR - YOE Programme",
     client: "Enterprise NGR",
     sector: "Enterprise & Foundations",
     outcome: "Application submission with AI-proctored testing and selection.",

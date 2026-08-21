@@ -42,9 +42,6 @@ export default function LeadershipBios() {
                 <Text variant="caption" className="text-burntsienna font-semibold uppercase tracking-wider mb-6 block">
                   {leader.role}
                 </Text>
-                <Text variant="body" className="leading-relaxed">
-                  {leader.bio}
-                </Text>
               </div>
             </StaggerItem>
           ))}

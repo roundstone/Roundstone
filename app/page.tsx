@@ -4,12 +4,12 @@ import TrustBar from "@/components/sections/TrustBar";
 import FeaturedImpact from "@/components/sections/FeaturedImpact";
 import StatsSection from "@/components/sections/StatsSection";
 import ServicesGrid from "@/components/sections/ServicesGrid";
+import ProductsSection from "@/components/sections/ProductsSection";
 import CaseVignettes from "@/components/sections/CaseVignettes";
 import AboutRoundstoneHome from "@/components/sections/AboutRoundstoneHome";
 import Testimonials from "@/components/sections/Testimonials";
 import WhyRoundstone from "@/components/sections/WhyRoundstone";
 import InsightsPreview from "@/components/sections/InsightsPreview";
-import LeadershipStrip from "@/components/sections/LeadershipStrip";
 import FinalCTA from "@/components/sections/FinalCTA";
 
 export default function Home() {
@@ -20,14 +20,13 @@ export default function Home() {
       <FeaturedImpact />
       <StatsSection />
       <ServicesGrid />
+      <ProductsSection />
       <CaseVignettes />
       <AboutRoundstoneHome />
       <WhyRoundstone />
       <InsightsPreview />
       <Testimonials />
-      <LeadershipStrip />
       <FinalCTA />
     </div>
   );
 }
-
